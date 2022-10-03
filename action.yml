@@ -5,6 +5,9 @@ branding:
   icon: 'terminal'
   color: 'yellow'
 inputs:
+  cdk_all:
+    description: 'Ignores stack and instead adds --all as argument'
+    default: false
   cdk_stack:
     description: 'AWS CDK stack name to execute.'
     default: '*'
